@@ -1,4 +1,4 @@
-# Endoscopic Examination
+# Endoscopic Examination | Эндоскопические исследования
 
 ## Интерфейс загрузчика приложения:
 ![EndoscopicExamination_Loader](images/interface/EndoscopicExamination_Loader.png)
