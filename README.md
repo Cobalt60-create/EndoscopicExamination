@@ -101,3 +101,14 @@
 | :-- | :-- |
 |uGlobalVarType/uStudyData|uGlobalVarType/uStudyDataОпределение структур данных (TPatientData, TStudyRecord)|
 |Cam|Библиотечные модули Media для работы со списками камер|
+
+## 6. Потоки данных
+### Поток создания исследования:
+#### Врач → UI (карточка пациента) → TMainAppForm → uStudiesDatabase (сохранение в БД) →→ Создание папки в DATA/RESEARCH/ → Готово к записи
+### Поток записи видео:
+#### USB Камера → uVideoRecorderModule → TMainAppForm →→ Сохранение в папку исследования → Обновление ListView снимков
+### Поток экспорта на USB:
+#### Врач (выбор исследования и USB) → TMainAppForm →
+→ uUSBFlashes (проверка USB) → Копирование файлов из DATA/RESEARCH/ →→ USB-накопитель → Создание study_info.json
+### Поток логирования:
+#### Любой модуль → uLogger → Запись в LOG/log_YYYY-MM-DD.txt
