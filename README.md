@@ -82,4 +82,22 @@
 |TMainAppForm|ГЛАВНЫЙ ФАСАД|Координация всех модулей, обработка событий UI,управление состоянием приложения|
 |FMX Компоненты|Визуальнаячасть|Кнопки, списки, поля ввода, отображение видео|
 
+## 3. Специализированные модули
 
+|Модуль|Назначение|Взаимодействуетс|Ключевые методы|
+| :-- | :-- | :-- | :-- |
+|uStudiesDatabase|Работа с БДSQLite|Файл БД, OS|AddStudy, GetStudy,FindStudies|
+|uVideoRecorderModule|Управлениекамерой|USB Camera,FFmpeg DLL|StartRecording,CaptureFrame,ConnectToCamera|
+|uUSBFlashes|Работа с USB|Windows API, USB-диск|FindUSBFlashes,LoadToComboBox,FormatSize|
+|uLicense|Лицензирование|Windows (HWID),license.dat|CheckLicense,IsDemoMode,GetLicenseStatus|
+|uLogger|Логирование|Файловаясистема, LOG/|LogInfo, LogError,LogDebug|
+|uStatistics|Статистика|БД (косвенно)|LoadStatistics,GenerateTextReport|
+|uCustomDialogPanel|Кастомныедиалоги|Главная форма|ShowConfirm,ShowError|
+|uBluetoothRemote|Bluetooth|-|-|
+
+## 4. Вспомогательные модули
+
+|Модуль|Назначение|
+| :-- | :-- |
+|uGlobalVarType/uStudyData|uGlobalVarType/uStudyDataОпределение структур данных (TPatientData, TStudyRecord)|
+|Cam|Библиотечные модули Media для работы со списками камер|
