@@ -1,2 +1,2 @@
-# EndoscopicExamination
+# Endoscopic Examination
 Техническая документация программного комплекса "Эндоскопические исследования"
