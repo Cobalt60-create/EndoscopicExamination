@@ -59,4 +59,4 @@
 ### 2.2 Диаграмма классов (Ядро)<br>
 Диаграмма основных классов и их взаимосвязей.
 
-![11](D:\!_CurrentProjects_ACTIVE_!\Delphi_ObjectPascal\IMK_Projects\D13\EndoscopicExaminations\FMX_App_1_2\!__DOC__!\11.bmp)
+![11](11.png)
