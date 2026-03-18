@@ -1,5 +1,8 @@
 # Endoscopic Examination
 
+## Интерфейс загрузчика приложения:
+![EndoscopicExamination_Loader](images/interface/EndoscopicExamination_Loader.png)
+
 Техническая документация программного комплекса "Эндоскопические исследования"
 
 | Атрибут    |  Значение   |
