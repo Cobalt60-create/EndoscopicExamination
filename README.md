@@ -21,18 +21,18 @@
 > 2.2 Диаграмма классов (Ядро) <br>
 > 2.3 Схема базыданных <br>
 3. Модули системы (детальное описание)<br>
-> 3.1Ядро приложения (Главная форма)<br>
-> 3.2Модуль загрузки (LoadUnit)<br>
-> 3.3Модуль работы с БД (uStudiesDatabase)<br>
-> 3.4Модуль видеозахвата (uVideoRecorderModule)<br>
-> 3.5Модуль работы с USB (uUSBFlashes)<br>
-> 3.6Модуль лицензирования (uLicense)<br>
-> 3.7Модуль логирования (uLogger)<br>
-> 3.8Модуль статистики (uStatistics)<br>
-> 3.9Модуль кастомных диалогов (uCustomDialogPanel)<br>
-> 3.10Модули типов и данных (uGlobalVarType, uStudyData)<br>
-> 3.11Модули RVMedia (CamList, SampleCamList)<br>
-> 3.12Модуль Bluetooth (uBluetoothRemote)<br>
+> 3.1 Ядро приложения (Главная форма)<br>
+> 3.2 Модуль загрузки (LoadUnit)<br>
+> 3.3 Модуль работы с БД (uStudiesDatabase)<br>
+> 3.4 Модуль видеозахвата (uVideoRecorderModule)<br>
+> 3.5 Модуль работы с USB (uUSBFlashes)<br>
+> 3.6 Модуль лицензирования (uLicense)<br>
+> 3.7 Модуль логирования (uLogger)<br>
+> 3.8 Модуль статистики (uStatistics)<br>
+> 3.9 Модуль кастомных диалогов (uCustomDialogPanel)<br>
+> 3.10 Модули типов и данных (uGlobalVarType, uStudyData)<br>
+> 3.11 Модули Media (Cam)<br>
+> 3.12 Модуль Bluetooth (uBluetoothRemote)<br>
 4. Руководство разработчика<br>
 > 4.1 Сборка проекта<br>
 > 4.2 Структура директорий<br>
